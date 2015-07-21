@@ -1,12 +1,11 @@
 .page_title{
-	border-bottom-style:solid;
-	border-width: 5px;
-	margin-bottom:20px;
+	border-width: 5%;
+	margin-bottom:5%;
 }
 
 .page_title h1 {
   text-align: center;
-  font: 5em 'Droid Sans', serif;
+  font: 5em, serif;
   font-weight: bold;
 }
 
@@ -17,27 +16,50 @@
   margin-bottom: 20px;
 }
 
-#profile_pic{
+.row{
+	padding:2%;
+}
+
+#line{
+	border-bottom:solid;
+	margin:1%;
+}
+
+/*#profile_pic{
 	float:left;
 	border-radius:80px 80px;
 	margin-right: 20px;
 	height:135px;
 	width:180px;
+}*/
+
+
+#bio{
+	padding: 5%;
+	padding-right:10%;
+	padding-top:10%;
+	font-size:1.1em;
 }
 
-.section{
+#profile_pic{
+	height:600px;
+	padding:2%;
+}
+
+/*.section{
 	font: 2.9em 'Arvo', serif;
+	margin-left:3%;
 }
 
-.date{
+/*.date{
 	text-align: center;
 }
 
-.left_line{
+/*.left_line{
 	border-left-style:solid;
 	border-width: 3;
 	margin-top:20px;
-}
+}*/
 
 .job{
 	margin-top:5px;
@@ -59,24 +81,26 @@ p,h1,h2,h3,h4,h5,h6,li,a{
 	margin-right:auto;
 }
 
-.page{
+/*.page{
 	margin-top:40px;
 	margin-bottom: 40px;
 	margin-right: 80px;
 	margin-left: 80px;
-}
+}*/
 
 .skills{
 	margin-top:20px;
 }
 
 .container{
-	margin:80px 60px;
 	background-color:#FFF;
-	max-width: 1100px;
-	padding-bottom:20px;
-	padding-left:10px;
-	padding-right:10px;
+	margin-top:5%;
+	margin-bottom:5%;
 	box-shadow: 10px 10px 5px #888888;
 	border-radius: 10px;
+
+
 }
+
+}
+
